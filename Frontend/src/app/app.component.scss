@@ -1,0 +1,96 @@
+mat-toolbar {
+    width: 100%;
+    background:  rgb(0,45,80);
+}
+
+mat-form-field{
+    padding-left: 5px;
+    width: 100%;
+}
+  
+.tool-bar-spacer {
+    flex: 1 1 auto;
+}  
+
+.menu {
+    margin-right: auto;
+    color: white;
+}
+
+.menu_right {
+    color: white;
+}
+
+.mat-drawer-container {
+    background-color: white;
+}
+
+mat-sidenav-container {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    a.active {
+        background: #8e8d8d;
+        color: #fff;
+
+        p {
+            color: #4a4a4a;
+        }
+    }
+}
+
+.app-btn-selected {
+    background:  #3785b4;
+}
+
+.app-btn-not-selected {
+    background:  rgb(0,45,80);
+}
+
+
+.shortcuts-line {
+    background-color: #0073c0; 
+    color: white;
+  }
+  .mat-sidenav-content .content .ng-star-inserted .shortcuts-line{
+      background-color: #0073c0; 
+  }
+  .shortcuts-line button.mat-button{
+      height: 100%;
+      padding: 0 10px;
+  }
+  .shortcuts-line button.mat-button.quick-btn-not-selected{
+      background-color: #0073c0;
+      line-height: 45px;
+  }
+  .shortcuts-line button.mat-button.quick-btn-selected{
+      border-radius: 0;
+  }
+  .shortcuts-line button.mat-button .mat-button-wrapper > div{
+      align-items: center;
+  }
+  .shortcuts-line button.mat-button .mat-button-wrapper > div > div:last-child{
+      background-color: #65aad9;
+      color: #0c395a;
+      height: 20px;
+      line-height: normal;
+      padding: 0px 8px;
+      border-radius: 100px;
+  }
+
+  .quick-btn-selected {
+    background:  rgb(0,45,80);
+    font-size: 13px; 
+    font-weight: normal;
+    height: 32px;
+    margin-bottom: 2px;
+  }
+
+  .quick-btn-not-selected {
+    background: #0073c0; /* 3785b4 */
+    font-size: 13px; 
+    font-weight: normal;
+  }
